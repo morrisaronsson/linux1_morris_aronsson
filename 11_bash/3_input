@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# output redirection 
+echo '# Input and output' > README.md 
+# > clobering  -> overwrites existing content 
+echo 'notes are sweet' > README.md 
+
+echo >> README.md
+
+ls >> README.md
+
+echo
+echo "My current working directory is " >> README.md 
+
+pwd >> README.md

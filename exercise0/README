@@ -1,0 +1,33 @@
+I created the diffrent directories through mkdir.
+Then I used cd to go inside each directory and created the readme files using touch. 
+I entered exercise0 and opened this README using vim to edit it. 
+Now I will press esc and then :wq.
+
+#Excercise 0 solutions documentation
+## task 1
+a) created folders using mkdir with brace
+
+'''bash 
+
+mkdir exercise{0..3} 
+
+
+#Excercise 0 solutions documentation
+a) created folders using mkdir with brace
+
+'''bash 
+
+
+#Excercise 0 solutions documentation
+a) created folders using mkdir with brace
+
+'''bash 
+
+5yy : yank 5 lines
+
+p : paste 
+
+```bash 
+
+
+
