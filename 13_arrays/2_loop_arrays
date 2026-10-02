@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+fruits=(apple pear banana kiwi)
+for fruit in "${fruits[@]}"; do
+    echo "Yummy fruit \"$fruit\""
+done
+
+#starts from 1 (apple is 0) 
+fruits=(apple pear banana kiwi)
+for fruit in "${fruits[@]:1}"; do
+    echo "Yummy fruit \"$fruit\""
+done
+
+
